@@ -1,0 +1,49 @@
+.styles_title__bu7t_ {
+    margin: 0;
+    font-size: 160px;
+    font-weight: 700;
+    color: #ee3425
+}
+
+@media (max-width: 767px) {
+    .styles_title__bu7t_ {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 100px
+    }
+}
+
+.styles_description__leLB_ {
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #033349
+}
+
+.styles_buttoncontainer__cVuPn {
+    display: flex;
+    justify-content: center
+}
+
+.styles_buttoncontainer__cVuPn a:hover {
+    text-decoration: none
+}
+
+.styles_background404__bVcrQ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(/images/background404.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-color: #221f20
+}
+
+@media (max-width: 767px) {
+    .styles_background404__bVcrQ {
+        width:100%;
+        background-image: url(https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/mobile404.png)
+    }
+}
